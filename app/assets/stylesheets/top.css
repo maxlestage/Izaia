@@ -1,0 +1,93 @@
+.title-wrapper {
+    background-image: url('top.jpg') !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))),  url('top.jpg') !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/bg-title-e45d0bf189b86d078b8e5f731eb4b926c6686250043623796234a0d54e47e184.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat
+}
+.title-wrapper .title-section-wrapper {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 66vh;
+    min-height: 520px;
+    padding-top: 48px;
+    padding-bottom:48px
+}
+
+.title-wrapper .title-section-wrapper .title-subtitle-container {
+    margin-bottom:64px
+}
+
+.title-wrapper .title-section-wrapper .title-subtitle-container .main-title {
+    margin-bottom: 24px;
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    text-shadow:0 0 4px rgba(0, 0, 0, 0.2)
+}
+
+.title-wrapper .title-section-wrapper .title-subtitle-container .main-subtitle {
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    line-height: 1.6;
+    font-weight: 300;
+    color: #ffffff;
+    text-shadow:0 0 4px rgba(0, 0, 0, 0.2)
+}
+
+.title-wrapper .search-bar {
+    overflow:hidden
+}
+
+.title-wrapper .search-bar, .title-wrapper .search-bar .dropdown-container, .title-wrapper .search-bar select, .title-wrapper .search-bar input {
+    height: 56px;
+    border:0
+}
+
+.title-wrapper .search-bar .dropdown-container {
+    background-color:white
+}
+
+.title-wrapper .search-bar .dropdown-container, .title-wrapper .search-bar .dropdown-container select, .title-wrapper .search-bar .dropdown-container option {
+    border: 0;
+    border-radius:0
+}
+
+.title-wrapper .search-bar select, .title-wrapper .search-bar input {
+    background-color: white;
+    padding:8px
+}
+
+.title-wrapper .search-bar select:focus, .title-wrapper .search-bar input:focus {
+    outline:none
+}
+
+@media (max-width: 767.98px) {
+    .section-title {
+        font-size:26px !important
+    }
+
+    .title-wrapper .title-section-wrapper {
+        padding-top: 24px;
+        padding-bottom: 24px;
+        min-height:400px
+    }
+
+    .title-wrapper .main-title {
+        margin-bottom: 16px !important;
+        font-size:26px !important
+    }
+
+    .title-wrapper .main-subtitle {
+        font-size:16px !important
+    }
+
+    .title-wrapper .title-subtitle-container {
+        margin-left: 16px;
+        margin-right:16px
+    }
+}
