@@ -1,10 +1,10 @@
 .title-wrapper {
     background-image: url('top.jpg') !important;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))),  url('top.jpg') !important;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/bg-title-e45d0bf189b86d078b8e5f731eb4b926c6686250043623796234a0d54e47e184.jpg);
-    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/bg-title-e45d0bf189b86d078b8e5f731eb4b926c6686250043623796234a0d54e47e184.jpg); 
+	background-size: cover;
     background-position: center;
-    background-repeat:no-repeat
+    background-repeat:no-repeat;  
 }
 .title-wrapper .title-section-wrapper {
     display: -webkit-box;
@@ -14,7 +14,11 @@
     height: 66vh;
     min-height: 520px;
     padding-top: 48px;
-    padding-bottom:48px
+    padding-bottom:48px;
+    
+}
+.title-section-wrapper {
+    backdrop-filter: blur(1px) brightness(50%) !important; 
 }
 
 .title-wrapper .title-section-wrapper .title-subtitle-container {
